@@ -32,28 +32,28 @@ export const menuItems = [
   { id: "about", text: "关于", href: "/about", svg: "material-symbols:info-outline-rounded", target: "_self" }, // About page
   {
     id: "blog",
-    text: "Blogs",
+    text: "博客",
     href: "/blog",
     svg: "material-symbols:book-2-outline-rounded",
     target: "_self",
     subItems: [
       {
         id: "all",
-        text: "All blogs",
+        text: "所有博客",
         href: "/blog",
         svg: "material-symbols:ink-pen-outline-rounded",
         target: "_self",
       }, // All blog
       {
         id: "tech",
-        text: "Tech blogs",
+        text: "科技博客",
         href: "/blog/categories/tech",
         svg: "material-symbols:deployed-code-outline",
         target: "_self",
       }, // Technology category
       {
         id: "life",
-        text: "Life blogs",
+        text: "生活博客",
         href: "/blog/categories/life",
         svg: "material-symbols:earthquake-rounded",
         target: "_self",
@@ -62,21 +62,21 @@ export const menuItems = [
   }, // Blog page with sub-items
   {
     id: "project",
-    text: "Project",
+    text: "项目",
     href: "/project",
     svg: "material-symbols:code-blocks-outline",
     target: "_self",
   }, // Projects page
   {
     id: "friend",
-    text: "Friend",
+    text: "朋友",
     href: "/friend",
     svg: "material-symbols:supervisor-account-outline-rounded",
     target: "_self",
   }, // Friends page
   {
     id: "contact",
-    text: "Contact",
+    text: "联系",
     href: "mailto:contact.evesunmaple@outlook.com", // Contact email
     target: "_blank", // Open in a new tab
     svg: "material-symbols:attach-email-outline-rounded",
@@ -92,7 +92,7 @@ export const socialIcons = [
     svg: "ri:cup-line",
   },
   {
-    href: "https://github.com/EveSunMaple",
+    href: "https://github.com/san1145",
     ariaLabel: "Github",
     title: "Github",
     svg: "ri:github-line",
