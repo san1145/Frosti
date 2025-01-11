@@ -2,16 +2,16 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Site title and description
-export const SITE_LANG = "en";
-export const SITE_TAB = "Frosti";
-export const SITE_TITLE = "Frosti 🧊";
-export const SITE_DESCRIPTION = "A blog template";
-export const DATE_FORMAT = "ddd MMM DD YYYY";
+export const SITE_LANG = "zh-cn";
+export const SITE_TAB = "me gbovv blog";
+export const SITE_TITLE = "me gbovv blog 🧊";
+export const SITE_DESCRIPTION = "me gbovv blog";
+export const DATE_FORMAT = "YYYY DD MMM ddd";
 
 // User profile information
-export const USER_NAME = "EveSunMaple";
+export const USER_NAME = "gbovv";
 export const USER_SITE = "https://frosti.saroprock.com"; // At the same time, this is also the site retrieved by the i18n configuration.
-export const USER_AVATAR = "/profile.webp";
+export const USER_AVATAR = "/gbovv.png";
 
 // Server and transition settings
 export const SERVER_URL = "https://demo.saroprock.com";
@@ -28,8 +28,8 @@ export const CODE_THEME = {
 
 // Menu items for navigation
 export const menuItems = [
-  { id: "home", text: "Home", href: "/", svg: "material-symbols:home-outline-rounded", target: "_self" }, // Home page
-  { id: "about", text: "About", href: "/about", svg: "material-symbols:info-outline-rounded", target: "_self" }, // About page
+  { id: "home", text: "主页", href: "/", svg: "material-symbols:home-outline-rounded", target: "_self" }, // Home page
+  { id: "about", text: "关于", href: "/about", svg: "material-symbols:info-outline-rounded", target: "_self" }, // About page
   {
     id: "blog",
     text: "Blogs",
